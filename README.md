@@ -7,7 +7,7 @@ This project is a challenge I made for myself, inspired by me getting pissed try
 
 ![How long it took to solve the sudoku with this project](SudokuSolver_Showcase.jpg)
 
-My personal best went from 12 minutes and 16 seconds to 2 minutes and 39 seconds using this solver (Consider the fact I have to manually enter the board to the program and then back to my phone)
+My personal best went from 12 minutes and 16 seconds to 2 minutes and 39 seconds on an extreme level sudoku board using this solver (Consider the fact I have to manually enter the board to the program and then back to my phone)
 
 ### Note
 
