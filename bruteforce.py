@@ -55,7 +55,6 @@ def bruteforce(board: dict) -> dict:
 
             # Reset the number for this cell, because when coming back we'll have to try all numbers again
             tried_cells[(row, col)] = 1
-
             
             cell_index -= 1
 
@@ -63,11 +62,9 @@ def bruteforce(board: dict) -> dict:
             if cell_index < 0:
                 quit("No solution exists")
 
-
             # Next cell we have to edit is the previous one, because the cell we tried editing won't fit any number between 1-9
             prev_row, prev_col = empty_cells[cell_index]
             prev_square = find_square_index(row = prev_row, col = prev_col)
-
 
             # Find which number we tried for the previous cell
             prev_num = board["rows"][prev_row][prev_col - 1]
